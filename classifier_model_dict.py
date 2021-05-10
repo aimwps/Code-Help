@@ -15,7 +15,7 @@ mult_classifiers = {
         "LM Linear Regression": LinearRegression(), # not useful for classification on titanic
         "LM Logistic Regression": LogisticRegression(),
         "LM Ridge": RidgeClassifier(),
-        "LM Lasso": Lasso(), Not useful for titanic dataset
+        "LM Lasso": Lasso(),
         "NN Multi layer Perceptron": MLPClassifier(random_state=909),
         "SVM Linear": svm.SVC(kernel='linear'),
         "SVM RBF": svm.SVC(kernel='rbf'),
